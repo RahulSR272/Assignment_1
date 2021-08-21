@@ -1,0 +1,7 @@
+#Take a string input and print the number of occurences of each character
+
+a=input('enter the string\n')
+b=set(a)
+for i in b:
+  x= a.count(i)
+  print(i, 'is', x)
